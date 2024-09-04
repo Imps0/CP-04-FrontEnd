@@ -1,1 +1,488 @@
+/* CSS- Página Inicial*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.navbar-nav .nav-link {
+    color: #34495e;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1abc9c;
+}
+
+.navbar-toggler {
+    border-color: #2c3e50;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3e%3cpath stroke="rgba(44, 62, 80, 0.5)" stroke-width="2" d="M5 6h20M5 14h20M5 22h20"/%3e%3c/svg%3e');
+}
+
+.btn-outline-primary {
+    border-color: #1abc9c;
+    color: #1abc9c;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+/* Banner */
+.banner-carousel {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Seções de Produtos */
+.container {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.card-text {
+    color: #7f8c8d;
+}
+
+.btn-primary {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.btn-primary:hover {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+/*CSS - Página de Categorias*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8f0;
+    color: #333;
+}
+
+header {
+    background-color: #4a773c;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e6f4e6;
+}
+
+.btn-outline-primary {
+    border-color: #4a773c;
+    color: #4a773c;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4a773c;
+    color: #fff;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.filters {
+    background-color: #e6f4e6;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filters h4, .filters h5 {
+    color: #4a773c;
+}
+
+.filters .form-check-label {
+    color: #333;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    color: #4a773c;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #4a773c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3e6632;
+}
+
+footer {
+    background-color: #4a773c;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/*CSS - Página de Detalhes do Produto*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4a773c;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e6f4e6;
+}
+
+.btn-outline-primary {
+    border-color: #4a773c;
+    color: #4a773c;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4a773c;
+    color: #fff;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.product-detail img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail h1 {
+    font-size: 2rem;
+    color: #4a773c;
+    margin-bottom: 1rem;
+}
+
+.product-detail .price {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.product-detail p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.product-detail button {
+    margin-right: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #4a773c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3e6632;
+}
+
+.btn-secondary {
+    background-color: #e6f4e6;
+    color: #4a773c;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #cce6cc;
+}
+
+/*CSS - Página de Contatos*/
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #e1f5fe; /* Azul claro, inspirando frescor e clareza */
+    padding: 10px 0;
+}
+
+.navbar {
+    padding: 0 15px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e8b57; /* Verde esmeralda para um toque natural */
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link.active {
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: #2e8b57;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;base64,...'); /* Adicione um ícone de menu personalizado se desejar */
+}
+
+/* Container do formulário de contato */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h1 {
+    color: #2e8b57;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.contact-form .form-control:focus {
+    border-color: #2e8b57;
+    box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.25);
+}
+
+.contact-form .btn-primary {
+    background-color: #2e8b57;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #1f6f40;
+}
+
+footer {
+    background-color: #e1f5fe;
+    padding: 15px 0;
+    text-align: center;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+/*Página Footer*/
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    }
+
+.footer {
+    background-color: #e0f2f1; /* Verde claro, eco-friendly */
+    padding: 60px 0;
+    border-top: 5px solid #004d40; /* Verde escuro para contraste */
+    }
+
+.footer a {
+    color: #004d40; /* Verde escuro para links */
+    text-decoration: none;
+    }
+
+.footer a:hover {
+    color: #00796b; /* Verde mais claro para hover */
+    text-decoration: underline;
+    }
+
+.footer h5 {
+    color: #00796b; /* Verde claro para títulos */
+    font-weight: 700;
+    }
+
+.footer p {
+    color: #004d40; /* Verde escuro para texto */
+    margin-bottom: 10px;
+    }
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #004d40;
+    }
+
+.social-icons a:hover {
+    color: #00796b;
+        }
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    }
+
+.list-unstyled li a {
+    color: #004d40;
+    }
+
+.list-unstyled li a:hover {
+    color: #00796b;
+    }
+
+.footer .container {
+    max-width: 960px;
+    }
+
+.footer .container.mt-4 {
+    margin-top: 30px;
+    }
+
+.text-center p {
+    margin: 0;
+    color: #004d40;
+    }
