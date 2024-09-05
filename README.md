@@ -25,8 +25,9 @@ Este é um projeto desenvolvido como parte do Checkpoint-04 da disciplina de Fro
 - Style
 - Footer
 
-## Link
-   https://github.com/Imps0/CP-04-FrontEnd.git
+## Links
+  - Git Hub: https://github.com/Imps0/CP-04-FrontEnd.git
+  - Site: https://imps0.github.io/CP-04-FrontEnd/pagina_inicial
 
 
 ![WhatsApp Image 2024-09-04 at 22 27 06](https://github.com/user-attachments/assets/5cd042f1-3d68-4f49-ac8b-cb907f4c6ff6)
