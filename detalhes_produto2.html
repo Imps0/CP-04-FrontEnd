@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Minha Loja</title>
+    <title>Detalhes do Produto - Minha Loja</title>
     <!-- Incluindo Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
          @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
+        .product-detail img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-detail .price {
+            font-size: 1.5rem;
+            color: #333;
         }
         .navbar-brand {
             font-family: SUSE;
@@ -34,38 +38,27 @@
                     <li class="nav-item">
                         <a class="nav-link" href="pagina_categorias.html">Categorias</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="pagina_contato.html">Contato</a>
-                    </li>
                 </ul>
-                <a href="detalhes_produto4.html" class="btn btn-outline-primary my-2 my-sm-0">Carrinho</a>
+                <a href="detalhes_produto2.html" class="btn btn-outline-primary my-2 my-sm-0">Carrinho</a>
             </div>
         </nav>
     </header>
 
-    <!-- Formulário de Contato -->
+    <!-- Detalhes do Produto -->
     <div class="container mt-5">
-        <h1>Contato</h1>
-        <div class="contact-form">
-            <form>
-                <div class="form-group">
-                    <label for="name">Nome</label>
-                    <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Seu email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Assunto</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Assunto" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mensagem</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+        <div class="row">
+            <!-- Imagem do Produto -->
+            <div class="col-md-6 product-detail">
+                <img src="img/Porta-Copos.png" alt="Produto Exemplo">
+            </div>
+            <!-- Informações do Produto -->
+            <div class="col-md-6 product-detail">
+                <h1>Porta-copos Eco-friendly</h1>
+                <p class="price">R$ 49,90</p>
+                <p>Adicione um toque de sustentabilidade e estilo à sua mesa com nosso Porta-Copos Ecológico de Bambu. Feito com um dos recursos naturais mais renováveis e resistentes, este porta-copos é a escolha perfeita para quem busca um design elegante e uma abordagem consciente ao meio ambiente.</p>
+                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                <button class="btn btn-secondary">Favoritar</button>
+            </div>
         </div>
     </div>
 

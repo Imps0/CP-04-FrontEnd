@@ -7,6 +7,7 @@
     <!-- Incluindo Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+         @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
         .product-detail img {
             max-width: 100%;
             height: auto;
@@ -15,13 +16,17 @@
             font-size: 1.5rem;
             color: #333;
         }
+        .navbar-brand {
+            font-family: SUSE;
+
+        }
     </style>
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="pagina_inicial.html">Logo</a>
+            <a class="navbar-brand" href="pagina_inicial.html">BioLife</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +39,7 @@
                         <a class="nav-link" href="pagina_categorias.html">Categorias</a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary my-2 my-sm-0">Carrinho</a>
+                <a href="detalhes_produto1.html" class="btn btn-outline-primary my-2 my-sm-0">Carrinho</a>
             </div>
         </nav>
     </header>
@@ -44,13 +49,13 @@
         <div class="row">
             <!-- Imagem do Produto -->
             <div class="col-md-6 product-detail">
-                <img src="https://via.placeholder.com/600x400" alt="Produto Exemplo">
+                <img src="img/escova_bambu2.jpg" alt="Produto Exemplo">
             </div>
             <!-- Informações do Produto -->
             <div class="col-md-6 product-detail">
-                <h1>Nome do Produto</h1>
-                <p class="price">R$ 199,90</p>
-                <p>Descrição detalhada do produto. Este texto pode incluir características, benefícios e outros detalhes importantes que ajudam o cliente a entender o produto.</p>
+                <h1>Escova de dente Bambu</h1>
+                <p class="price">R$ 29,90</p>
+                <p>Transforme sua rotina de cuidados com a higiene bucal com a nossa Escova de Dente Ecológica de Bambu. Projetada para oferecer uma alternativa sustentável e eficiente às escovas tradicionais, esta escova combina praticidade e responsabilidade ambiental.</p>
                 <button class="btn btn-primary">Adicionar ao Carrinho</button>
                 <button class="btn btn-secondary">Favoritar</button>
             </div>

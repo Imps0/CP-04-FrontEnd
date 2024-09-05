@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Loja</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+        
+        .navbar-brand {
+            font-family: SUSE;
+
+        }
+        </style>
+    <title>BioLife</title>
     <!-- Incluindo Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -18,7 +26,7 @@
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#">BioLife</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +36,7 @@
                         <a class="nav-link" href="pagina_inicial.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina_categorias.html">Sobre</a>
+                        <a class="nav-link" href="pagina_categorias.html">Categorias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pagina_contato.html">Contato</a>
@@ -37,7 +45,7 @@
                         <a class="nav-link" href="footer.html">mais Detalhes</a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary my-2 my-sm-0">Carrinho</a>
+                <a href="detalhes_produto1.html" class="btn btn-outline-primary my-2 my-sm-0">Carrinho</a>
             </div>
         </nav>
     </header>
@@ -51,13 +59,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1920x600" class="d-block w-100" alt="Promoção 1">
+                <img src="img/background1.jpg" class="d-block w-100" alt="Promoção 1">
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1920x600" class="d-block w-100" alt="Promoção 2">
+                <img src="img/background2.jpg" class="d-block w-100" alt="Promoção 2">
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1920x600" class="d-block w-100" alt="Promoção 3">
+                <img src="img/background3.jpg" class="d-block w-100" alt="Promoção 3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,43 +87,43 @@
                 <div class="card">
                     <img src="img/escova_produto1.jpg" class="card-img-top" alt="Produto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Escova de dente bambu</h5>
-                        <p class="card-text">Escova de dente feita de bambu...</p>
-                        <a href="pagina_detalhes_produto.html" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Escova de dente Bambu</h5>
+                        <p class="card-text">Escova ecológica de bambu.</p>
+                        <a href="detalhes_produto1.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="img/escova_produto1.jpg" class="card-img-top" alt="Produto 1">
+                    <img src="img/Porta-Copos.png" class="card-img-top" alt="Produto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Produto 2</h5>
-                        <p class="card-text">Descrição...</p>
-                        <a href="pagina_detalhes_produto.html" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Porta-Copos Eco-friendly</h5>
+                        <p class="card-text">Kit Porta-copos Ecológico.</p>
+                        <a href="detalhes_produto2.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="img/escova_produto1.jpg" class="card-img-top" alt="Produto 1">
+                    <img src="img/Cesto.png" class="card-img-top" alt="Produto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Produto 3</h5>
-                        <p class="card-text">Descrição...</p>
-                        <a href="pagina_detalhes_produto.html" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Cesto de Bambu Eco-friendly</h5>
+                        <p class="card-text">Cesto de roupas Ecológico.</p>
+                        <a href="detalhes_produto3.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="img/escova_produto1.jpg" class="card-img-top" alt="Produto 1">
+                    <img src="img/sabonete.jpg" class="card-img-top" alt="Produto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Produto 4</h5>
-                        <p class="card-text">Descrição...</p>
-                        <a href="pagina_detalhes_produto.html" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Sabonete Vegano</h5>
+                        <p class="card-text">Sabonete corporal cruelty-free.</p>
+                        <a href="detalhes_produto4.html" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
-            <!-- Adicione mais produtos aqui -->
+           <br><br><br>
         </div>
     </div>
 
